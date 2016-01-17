@@ -4,7 +4,7 @@ angular.module('ngSocial.facebook', ['ngRoute','ngFacebook'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/facebook', {
-    templateUrl: 'facebook/facebook.html',
+    templateUrl: 'facebook/facebook.cfm',
     // controller: 'FacebookCtrl'
   });
 }])
